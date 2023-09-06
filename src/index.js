@@ -24,8 +24,8 @@ class Profile extends React.Component {
 class LoginView extends React.Component {
 
     constructor() {
-        super({ details: '' });
-        this.details = ''
+        super()
+        this.details = '--'
         this.state = {
             isLog: false
         }
